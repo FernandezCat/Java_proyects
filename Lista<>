@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        // Crear una lista de Strings
+        List<String> frutas = new ArrayList<>();
+
+        // Agregar elementos
+        frutas.add("Manzana");
+        frutas.add("Banana");
+        frutas.add("Pera");
+
+        System.out.println(frutas); // [Manzana, Banana, Pera]
+    }
+}
